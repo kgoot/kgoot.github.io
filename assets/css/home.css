@@ -1,0 +1,184 @@
+#home {
+    background-image: url("../img/test.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 570px;
+    height:100vh;
+    z-index:2;
+    position:relative;
+}
+
+#home-title-container-margin {
+    position:relative;
+    height:28%;
+}
+
+#home-title-container {
+    height:40%;
+    width: 100%;
+    max-width:1000px;
+    position:relative;
+    left:50%;
+    transform: translateX(-50%);
+}
+
+#hello-box {
+    width:100%;
+}
+
+#hello-textbox {
+    position:relative;
+    width:100%;
+    left: 30%;
+    transform: translateX(-50%);
+}
+
+#hello {
+    font-size: 6vw;
+    text-align: center;
+    color: #CD5360;
+    line-height:0.5;
+}
+
+@media screen and (min-width: 1150px) {
+    #hello {
+        font-size:80px;
+    }
+}
+
+#karina-textbox {
+    position:relative;
+    width:100%;
+    left: 30%;
+    transform: translateX(-50%);
+}
+
+#karina {
+    font-size: 12vw;
+    text-align: center;
+    color: #286DA8;
+    line-height:0.9;
+    font-family: Futura;
+}
+
+
+#links-margin {
+    height:30%;
+}
+
+#links-box {
+    position:relative;
+    width:100%;
+    left: 30%;
+    transform: translateX(-50%);
+}
+
+#links {
+    /*max-width:300px;  */
+    text-align: center;
+}
+
+
+#links a {
+    text-decoration: none;
+}
+
+#links .link {
+    object-fit:contain;
+    max-height:100%;
+    max-width:17.7%;
+    padding-left: 0.5%;
+    padding-right:0.5%;
+
+}
+
+#links .link:hover{
+    opacity: 0.5;
+}
+
+@media screen and (max-width: 700px) {
+    #links {
+        position:relative;
+        width:40%;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    #links .link {
+        max-width:17.2%;
+        padding-left:0.5%;
+        padding-right:0.5%;
+    }
+}
+
+
+/*@media screen and (min-width: 1200px) {
+    #tagline {
+        font-size:30px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    #tagline {
+        font-size:13px;
+    }
+}
+*/
+
+/*scroll*/
+#scroll-margin {
+    height:8%;
+    left:30%;
+}
+#scroll-box {
+    width: 100%;
+}
+#scroll-textbox {
+    position:relative;
+    width:100%;
+    left: 30%;
+    transform: translateX(-50%);
+}
+#scroll-to-learn {
+    color: #CD5360;
+    font-size:15px;
+    text-align:center;
+    line-height:2;
+}
+
+@media screen and (max-width: 500px) {
+    #scroll-to-learn {
+        font-size:13px;
+    }
+}
+
+#scroll-arrow {
+    position:relative;
+    display:block;
+    height:22px;
+    left:30%;
+    transform: translateX(-50%);
+}
+
+#scroll-arrow:hover {
+    opacity: 0.5;
+}
+
+@media screen and (max-width: 500px) {
+    #scroll-arrow {
+        height:15px;
+    }
+}
+
+
+
+@media screen and (max-width:900px) {
+    #home-title-container-margin {
+        height:35%;
+    }
+
+    #home-title-container {
+        height:35%;
+    }
+}

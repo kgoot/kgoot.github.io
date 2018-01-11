@@ -1,0 +1,146 @@
+#work-content-container {
+    width:75%;
+    position:relative;
+    left:12.5%;
+    top: 12px;
+    margin-bottom: 60px;
+}
+
+#work-box {
+    width:45%;
+    display:inline-block;
+    vertical-align:middle;
+    height:100%;
+}
+
+#comp-pic-box {
+    display:inline-block;
+    vertical-align:middle;
+    width:45%;
+    height:100%;
+    padding-left:15%;
+    padding-right:3%;
+}
+
+#company-text {
+    width:100%;
+    height:100%;
+    font-size: 22px;
+    text-align: left;
+    line-height: 1.6;
+    color: #286DA8;
+}
+
+#bio-text {
+    width:100%;
+    height:100%;
+    font-size: 16px;
+    text-align: justify;
+    line-height: 1.6;
+}
+
+#title-text {
+    width:100%;
+    height:100%;
+    font-size: 19px;
+    text-align: left;
+    line-height: 1.6;
+    color: #CD5360;
+}
+
+.item {
+    margin-bottom: 35px;
+}
+
+.logo-box {
+    /* width:10%; */
+    width:6%;
+    position:absolute;
+    padding-top:0.5%;
+    min-width:50px;
+}
+
+.logo {
+    object-fit:contain;
+    max-width: 100%;
+    max-height:80px;
+    float:right;
+}
+
+.all-but-logo {
+    position:relative;
+    /* left:13%; */
+    left:70px;
+    width: 80%;
+
+}
+
+.resume-entry {
+    position:relative;
+    top: 0.6vw;
+}
+
+.org {
+    font-size: 23px;
+}
+
+.position {
+    color: #EEA04A;
+    font-size: 21px;
+}
+
+.description {
+    display:none;
+    font-size: 15px;
+    text-align:justify;
+}
+
+@media screen and (max-width:980px) {
+    .org {
+        font-size: 20px;
+    }
+    .position {
+        font-size:18px;
+    }
+
+}
+
+@media screen and (max-width: 930px) {
+    .description{
+        font-size: 13px;
+    }
+}
+
+.work-images img {
+    /* height:200px; */
+    object-fit:contain;
+    max-width:100%;
+    max-height:100%;
+}
+
+.bar {
+    display:table;
+    margin-top: 25px;
+    width:100%;
+    background-color: #F2F2F2;
+    height: 45px;
+    border-radius: 5px;
+    text-align:center;
+    font-size: 12px;
+}
+
+.bar:hover {
+    background-color: #D9D9D9;
+    cursor: pointer;
+}
+
+.learn-more {
+    display:table-cell;
+    vertical-align: middle;
+}
+
+.close {
+    display: none;
+    vertical-align: middle;
+}
+

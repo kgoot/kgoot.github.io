@@ -9,6 +9,12 @@
     position:relative;
 }
 
+.nav-topbar {
+    display: none;
+}
+
+
+
 #home-title-container-margin {
     position:relative;
     height:28%;

@@ -8,78 +8,46 @@
     <link rel = "stylesheet" type = "text/css" href = "assets/css/style.css">
     <link rel = "stylesheet" type = "text/css" href = "assets/css/home.css">
     <link rel = "stylesheet" type = "text/css" href = "assets/css/nav-bar.css">
-    <link rel = "stylesheet" type = "text/css" href = "assets/css/about.css">x
+    <link rel = "stylesheet" type = "text/css" href = "assets/css/about.css">
     <link rel = "stylesheet" type = "text/css" href = "assets/css/work.css">
     <link rel = "stylesheet" type = "text/css" href = "assets/css/projects.css">
     <link rel="stylesheet" href="assets/css/main.css" />
     <link rel = "stylesheet" type = "text/css" href = "assets/css/cs61a.css">
-   
 
     <script src = "assets/js/scroll.js"></script> 
     <script type="text/javascript" src="assets/js/script.js"></script>
     
-    <script>
+<!--     <script>
     (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
     (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
     m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
     })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
     ga('create', 'UA-105363275-1', 'auto');
     ga('send', 'pageview');
-    </script>
+    </script> -->
 
-    <meta property="og:title" name = "title" content="Naomi Jung" />
-    <meta property="og:url" name = "url" content="https://naomijung.github.io/" />
+    <meta property="og:title" name = "title" content="Karina Goot" />
+    <meta property="og:url" name = "url" content="https://github.com/kgoot/" />
     <meta property="og:image" name = "image" content="assets/img/web-thumbnail.png" />
-    <meta property="og:description" name = "description" content="Hi I'm Naomi, welcome to my site!" />
+    <meta property="og:description" name = "description" content="This is Karina Goot's personal website." />
 </head>
 
 <body>
-    
-
-    <!-- TOP NAV BAR -->
-<!--     <div id = "nav-topbar-about">
-            <div id = "nav-item-container-about">
-                <div id = "nav-home-about"> <a href = "#home"> K<b>GOOT</b> </a> </div>
-                <div id = "nav-items-about">
-                    <a href = "#about"> about </a>
-                    <a href = "#work"> work </a> 
-                    <a href = "#projects"> projects </a> 
-                    <a href = "#cs61a"> cs61a </a>
-                </div>
-                <div id = "nav-underline-about"> </div>
-            </div>
-    </div> -->
-<!--     <div id = "nav-topbar">
-        <div id = "nav-item-container">
-            <div id = "nav-home"> <a class = "active" href = "#home"> K<b>GOOT</b> </a> </div>
-            <div id = "nav-items">
-                <div id = "nav-about" class = "nav-item"> <a href = "#about"> about </a></div>
-                <div id = "nav-work" class = "nav-item"> <a href = "#work"> work </a> </div>
-                <div id = "nav-dance" class = "nav-item"> <a href = "#dance"> dance </a> </div>
-                <div id = "nav-contact" class = "nav-item"> <a href = "#contact"> contact </a> </div>
-            </div>
-            <div id = "nav-underline"> </div>
-        </div>
-    </div>
-     -->
-    <!-- <div id = "grayed-out-box"></div> -->
-
-
 
     <!-- HOME PAGE -->
     <section id = "home" class = "section-card">
-       <!--  <div id = "nav-topbar-about">
-            <div id = "nav-item-container-about">
-                <div id = "nav-home-about"> <a href = "#home"> K<b>GOOT</b> </a> </div>
-                <div id = "nav-items-about">
-                    <a href = "#about"> about </a>
-                    <a href = "#work"> work </a> 
-                    <a href = "#projects"> projects </a> 
-                    <a href = "#cs61a"> cs61a </a>
-                </div>
-                <div id = "nav-underline-about"> </div>
-            </div>
-        </div> -->
+        <div id="container" onclick="myFunction(this)">
+          <div class="bar1"></div>
+          <div class="bar2"></div>
+          <div class="bar3"></div>
+        </div>
+
+        <script>
+        function myFunction(x) {
+            x.classList.toggle("change");
+            document.body.style.backgroundColor = "rgba(0,0,0,0.4)";
+        }
+        </script>
         <div class = "title-header-container">
         </div>
 
@@ -99,21 +67,11 @@
             
             <div id = "links-margin"> </div> 
             <br>
-            <br>
-            <div id="links-box">
-                 <div id = "links">
-                    <a href = "https://www.facebook.com/kgoot" target = "_blank"><img class = "link" src = "assets/img/icons/facebook.png"></a>
-                    <a href = "https://www.instagram.com/thegootlife/" target = "_blank"> <img class = "link" src = "assets/img/icons/instagram.png"> </a>
-                     <a href = "https://www.linkedin.com/in/kgoot/" target = "_blank"> <img class = "link" src = "assets/img/icons/linkedin.png"> </a> 
-                     <a href = "mailto:kgoot@berkeley.edu"><img class = "link" src = "assets/img/icons/email.png"></a> 
-                     <a href = "assets/docs/Karina_Goot_Resume.pdf" target = "_blank"><img class = "link" src = "assets/img/icons/resume.png"></a>   
-                </div>
-            </div>
-        
-             <div id = "scroll-margin"> </div> 
-             <div id = "scroll-box">
+            <br>        
+            <div id = "scroll-margin"> </div> 
+            <div id = "scroll-box">
                 <div id = "scroll-textbox">
-                     <div id = "scroll-to-learn"> learn more </div> 
+                    <div id = "scroll-to-learn"> learn more </div> 
                 </div>
             </div>
         <a href = "#about"> <img id = "scroll-arrow" src = "assets/img/icons/scroll.png"> </a>
@@ -176,20 +134,13 @@
                             <li><a href="assets/docs/Karina_Goot_Resume.pdf"" class="icon style1 fa-pencil"><span class="label">resume</span></a></li>
                         </ul>
                     </center>
-                    
-                   
-                    <!-- <center>
-                        <a href = "https://www.linkedin.com/in/kgoot/" target = "_blank"><img class = "link" src = "assets/img/icons/linkedin_small.png"></a>
-                        <a href = "https://github.com/kgoot/" target = "_blank"><img class = "link" src = "assets/img/icons/github.png"></a>
-                        <a href = "https://www.instagram.com/thegootlife/" target = "_blank"> <img class = "link" src = "assets/img/icons/instagram_small.png"> </a>
-                    </center> -->
                     <br>
                 </div>   
             </div>
         </div>
     </section>
 
-    <!-- Work PAGE -->
+    <!-- WORK PAGE -->
     <section id = "work" class = "section-card">
         <br>
         <br>
@@ -367,10 +318,6 @@
                         <b>Lab: </b> Lab # 22, Tuesday 3:30pm - 5:00pm @ <a href = "https://www.google.com/maps/place/Soda+Hall,+Berkeley,+CA+94709/@37.8755939,-122.2609752,17z/data=!3m1!4b1!4m5!3m4!1s0x80857c23cf579a19:0xb391dd82cccd395f!8m2!3d37.8755939!4d-122.2587865"> 271 Soda Hall </a> <br>
                         <b>Discussion: </b> Disc # 122, Thursday 3:30pm - 5:00pm  @ <a href = "https://http://www.lib.berkeley.edu/doemoff/pdfs/moff_1.pdf"> 106 Moffit Library </a> <br>
                         <b>Office Hours:</b> TBD <br>
-
-                        
-
-
                         <b><a href = "https://calendar.google.com/calendar/selfsched?sstoken=UVBNMDIyci1XMndQfGRlZmF1bHR8M2I2YWUwMjdhYTkyODI2ODI4NWVlYWQzY2I1ODJmMDc"> Book an Appointment </a> </b> <br>
                         <b> <a href = "https://cs61a.org/"> Submit anonymous feedback </a> </b> <br>
                         <b> Email: </b> kgoot [at] berkeley [dot] edu
@@ -428,20 +375,7 @@
                 <img class = "card-title" src = "assets/img/headers/contact.png">
             </div>
         </div>
-
         <br>
-
-
-  <!--       <div class="content">
-            <div id = "contact-container">
-                <div id = "contact-margin"></div>
-                <div id = "contact-blurb">
-                    Contact me through email or LinkedIn.
-                </div>
-            </div>       
-        </div>
-        <br>
-               -->  
 
         <!-- Footer -->
             <footer class="wrapper style3 align-center">
@@ -456,28 +390,9 @@
                     </ul>
                 </div>
             </footer>
-
-    <!-- CONTACT PAGE -->
-    <!-- <section id =  class = "section-card"> -->
-        <!-- <div class = "outer-container"> 
-            <div class = "slide-border"> </div> 
-            <div class = "card-header-container">
-                <img class = "card-title" src = "assets/img/headers/contact.png">
-            </div>
-        </div> -->
-
-         <!-- <div id = "contact-container">
-                <div id = "contact-margin"></div>
-                <div id = "contact-blurb">
-                        Welcome to <a href = "https://cs61a.org/"> CS61A </a>! In the Spring 2018 semester, I will be teaching one discussion section and one lab section. You can find relevant section resources and advice here.
-                </div>
-        </div> -->
-    <!-- </section> -->
-
-
+        </section>
 
     <div id = "footer" style = "padding-top: 20px; font-size:12px;"> © 2018 <a href = "https://kgoot.github.io"> Karina Goot </a>. All Rights Reserved. </div>
 
-   
-
 </body>
+</html>

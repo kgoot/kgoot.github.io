@@ -13,9 +13,7 @@
     <link rel = "stylesheet" type = "text/css" href = "assets/css/projects.css">
     <link rel="stylesheet" href="assets/css/main.css" />
     <link rel = "stylesheet" type = "text/css" href = "assets/css/cs61a.css">
-
-    <script src = "assets/js/scroll.js"></script> 
-    <script type="text/javascript" src="assets/js/script.js"></script>
+    <!-- <script type="text/javascript" src="assets/js/script.js"></script> -->
     
 <!--     <script>
     (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
@@ -36,46 +34,49 @@
 
     <!-- HOME PAGE -->
     <section id = "home" class = "section-card">
-        <div id="container" onclick="myFunction(this)">
-          <div class="bar1"></div>
-          <div class="bar2"></div>
-          <div class="bar3"></div>
-        </div>
-
-        <script>
-        function myFunction(x) {
-            x.classList.toggle("change");
-            // document.body.style.backgroundColor = "rgba(0,0,0,0.4)";
-        }
-        </script>
-        <div class = "title-header-container">
-        </div>
-
-        <div id = "home-title-container-margin"> </div>
-        <div id = "home-title-container">
-            <div id = "hello-box">
-                <div id = "hello-textbox">
-                     <div id = "hello"> Hey, I'm </div> 
+        <div id="sidebar-box" >
+            <div id="lol" class="opaque-background">
+                <div id="sidebar-container" onclick="toggleSideBar(this)">
+                    <div class="bar1"></div>
+                    <div class="bar2"></div>
+                    <div class="bar3"></div>
                 </div>
             </div>
+            <script>
+            function toggleSideBar(x) {
+                x.classList.toggle("change");
+                document.getElementById("sidebar-box").classList.toggle("change")
+            }
+            </script>
+            <div class = "title-header-container"></div>
+            <div id = "home-title-container-margin"> </div>
+            <div id = "home-title-container">
+                <div id = "hello-box">
+                    <div id = "hello-textbox">
+                         <div id = "hello"> Hey, I'm </div> 
+                    </div>
+                </div>
 
-            <div id = "karina-box">
-                <div id = "karina-textbox">
-                     <div id = "karina">Karina</div> 
+                <div id = "karina-box">
+                    <div id = "karina-textbox">
+                         <div class = "karina">Karina</div> 
+                    </div>
                 </div>
-            </div>
-            
-            <div id = "links-margin"> </div> 
-            <br>
-            <br>        
-            <div id = "scroll-margin"> </div> 
-            <div id = "scroll-box">
-                <div id = "scroll-textbox">
-                    <div id = "scroll-to-learn"> learn more </div> 
+                
+                <div id = "links-margin"> </div> 
+                <br>
+                <br>        
+                <div id = "scroll-margin"> </div> 
+                <div id = "scroll-box">
+                    <div id = "scroll-textbox">
+                        <div id="scroll-to-learn" class = "scroll-to-learn"> learn more </div> 
+                    </div>
                 </div>
+            <a href = "#about"> <img id="scroll-arrow" class="scroll-arrow" src="assets/img/icons/scroll.png"> </a>
+
             </div>
-        <a href = "#about"> <img id = "scroll-arrow" src = "assets/img/icons/scroll.png"> </a>
         </div>
+         
     </section>
 
     <!-- ABOUT PAGE -->

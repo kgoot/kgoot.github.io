@@ -31,7 +31,6 @@
 </head>
 
 <body>
-
     <!-- HOME PAGE -->
     <section id = "home" class = "section-card">
         <div id="sidebar-box" >
@@ -41,13 +40,46 @@
                     <div class="bar2"></div>
                     <div class="bar3"></div>
                 </div>
+
+                <div id="nav-menu" style="display: none;">
+                    <div id = "icons-content-box">
+                        <div id="nav-box">
+                            <a id="menu-item" href = "#home" onclick="toggleSideBar(this)"> home</a> <br>
+                            <a id="menu-item" href = "#about" onclick="toggleSideBar(this)"> about</a> <br>
+                            <a id="menu-item" href = "#work" onclick="toggleSideBar(this)"> work</a> <br>
+                            <a id="menu-item" href = "#projects" onclick="toggleSideBar(this)"> projects</a> <br>
+                            <a id="menu-item" href = "#cs61a" onclick="toggleSideBar(this)"> cs61a</a> <br>
+                        </div>
+                        <div id = "icons-box">
+                            <center>
+                                <ul class="icons">
+                                    <li><a href="https://www.facebook.com/kgoot" class="icon style1 fa-facebook"><span class="label">Facebook</span></a></li>
+                                    <li><a href="https://www.linkedin.com/in/kgoot/" class="icon style1 fa-linkedin"><span class="label">LinkedIn</span></a></li>
+                                    <li><a href="mailto:kgoot@berkeley.edu" class="icon style1 fa-envelope"><span class="label">Email</span></a></li>
+                                    <li><a href="https://github.com/kgoot/" class="icon style1 fa-github"><span class="label">Github</span></a></li>
+                                    <li><a href="https://www.instagram.com/thegootlife/" class="icon style1 fa-instagram"><span class="label">Instagram</span></a></li>
+                                    <li><a href="assets/docs/Karina_Goot_Resume.pdf"" class="icon style1 fa-pencil"><span class="label">resume</span></a></li>
+                                </ul>
+                                <div id = "footer" style="font-size:14px;"> © 2018 Karina Goot. All Rights Reserved. </div>
+                            </center>
+                            <br>
+                        </div>   
+                    </div>
+                </div>
             </div>
             <script>
             function toggleSideBar(x) {
-                x.classList.toggle("change");
                 document.getElementById("sidebar-box").classList.toggle("change")
+                var menu = document.getElementById("nav-menu")
+                if (menu.style.display == "none") {
+                    menu.style.display = "block"
+                } else {
+                    menu.style.display = "none"
+                    x.classList.toggle("change");
+                }
             }
             </script>
+
             <div class = "title-header-container"></div>
             <div id = "home-title-container-margin"> </div>
             <div id = "home-title-container">
@@ -64,6 +96,25 @@
                 </div>
                 
                 <div id = "links-margin"> </div> 
+                <div id="links-box">
+                    <div id = "links">
+                        <a href = "https://www.facebook.com/kgoot" target = "_blank"><img class = "link" src = "assets/img/icons/facebook.png"></a>
+                        <a href = "https://www.instagram.com/thegootlife/" target = "_blank"> <img class = "link" src = "assets/img/icons/instagram.png"> </a>
+                        <a href = "https://www.linkedin.com/in/kgoot/" target = "_blank"> <img class = "link" src = "assets/img/icons/linkedin.png"> </a> 
+                        <a href = "mailto:kgoot@berkeley.edu"><img class = "link" src = "assets/img/icons/email.png"></a> 
+                        <a href = "assets/docs/Karina_Goot_Resume.pdf" target = "_blank"><img class = "link" src = "assets/img/icons/resume.png"></a>   
+                    </div>
+                </div>
+               <!--  <center>
+                    <ul class="icons">
+                        <li><a href="https://www.facebook.com/kgoot" class="icon style1 fa-facebook"><span class="label">Facebook</span></a></li>
+                        <li><a href="https://www.linkedin.com/in/kgoot/" class="icon style1 fa-linkedin"><span class="label">LinkedIn</span></a></li>
+                        <li><a href="mailto:kgoot@berkeley.edu" class="icon style1 fa-envelope"><span class="label">Email</span></a></li>
+                        <li><a href="https://github.com/kgoot/" class="icon style1 fa-github"><span class="label">Github</span></a></li>
+                        <li><a href="https://www.instagram.com/thegootlife/" class="icon style1 fa-instagram"><span class="label">Instagram</span></a></li>
+                        <li><a href="assets/docs/Karina_Goot_Resume.pdf"" class="icon style1 fa-pencil"><span class="label">resume</span></a></li>
+                    </ul>
+                </center> -->
                 <br>
                 <br>        
                 <div id = "scroll-margin"> </div> 

@@ -82,10 +82,6 @@
     height:100%;
 }
 
-
-
-
-
 /*LANDING PAGE*/
 #home {
     background-image: url("../img/home.jpeg");
@@ -95,7 +91,6 @@
     min-height: 570px;
     z-index:2;
     position:relative;
-    transition: all 1.2s;
 }
 
 #home-title-container-margin {
@@ -252,7 +247,6 @@
         height:15px;
     }
 }
-
 
 
 @media screen and (max-width:900px) {

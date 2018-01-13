@@ -13,19 +13,17 @@ body {
 }
 
 .section-card {
-	/*min-height: 100vh;*/
 	background-color: white;
 	position: relative;
 	width: 100%;
 }
 
 #grayed-out-box {
-    /*display:none;*/
+    display:none;
     position:fixed;
     width:100%;
-    height:110vh;
+    height:100vh;
      background-color:rgba(0,0,0,.32); 
-     /* background-color:yellow;  */
     z-index:15;
 }
 
@@ -36,7 +34,6 @@ body {
     }
 
     .card-header-container {
-        /*position:relative;*/
         height:90px;
         width:80%;
         padding:5px;
